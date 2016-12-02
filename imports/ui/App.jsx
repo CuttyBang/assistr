@@ -25,12 +25,12 @@ class App extends Component {
       </div>
     );
   }
-
 }
 
 App.propTypes = {
   tasks: PropTypes.array.isRequired,
 };
+
 
 export default createContainer(() => {
   return {
